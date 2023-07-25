@@ -1,0 +1,146 @@
+{
+    {
+        "userAgent": "azsdk-java-cosmos/4.46.0 Windows11/10.0 JRE/17.0.7 az-sd-cos/@project.version@az-sp-cos/5.3.0",
+        "activityId": "f9d1d0e2-de05-494e-8e34-65dff61df17b",
+        "requestLatencyInMs": 48,
+        "requestStartTimeUTC": "2023-07-24T18:58:11.446912Z",
+        "requestEndTimeUTC": "2023-07-24T18:58:11.495420700Z",
+        "responseStatisticsList": [
+            {
+                "storeResult": {
+                    "storePhysicalAddress": "rntbd://cdb-ms-prod-eastus1-fd70.documents.azure.com:14383/apps/ea8b4af6-6925-4111-af26-fd8f773ca2f2/services/c29835a4-d19e-40c6-a87d-c26cd4bdcd94/partitions/187473ab-d19d-476d-a37f-67f14bfda1bf/replicas/133346748035595667p/",
+                    "lsn": 9,
+                    "globalCommittedLsn": 9,
+                    "partitionKeyRangeId": "0",
+                    "isValid": true,
+                    "statusCode": 200,
+                    "subStatusCode": 0,
+                    "isGone": false,
+                    "isNotFound": false,
+                    "isInvalidPartition": false,
+                    "isThroughputControlRequestRateTooLarge": false,
+                    "requestCharge": 1.0,
+                    "itemLSN": 7,
+                    "sessionToken": "0:-1#9",
+                    "backendLatencyInMs": 0.268,
+                    "retryAfterInMs": null,
+                    "replicaStatusList": [
+                        "14383:Connected",
+                        "14075:Connected",
+                        "14397:Connected",
+                        "14351:Connected"
+                    ],
+                    "transportRequestTimeline": [
+                        {
+                            "eventName": "created",
+                            "startTimeUTC": "2023-07-24T18:58:11.447914500Z",
+                            "durationInMilliSecs": 0.0
+                        },
+                        {
+                            "eventName": "queued",
+                            "startTimeUTC": "2023-07-24T18:58:11.447914500Z",
+                            "durationInMilliSecs": 0.0
+                        },
+                        {
+                            "eventName": "channelAcquisitionStarted",
+                            "startTimeUTC": "2023-07-24T18:58:11.447914500Z",
+                            "durationInMilliSecs": 1.0006
+                        },
+                        {
+                            "eventName": "pipelined",
+                            "startTimeUTC": "2023-07-24T18:58:11.448915100Z",
+                            "durationInMilliSecs": 0.0
+                        },
+                        {
+                            "eventName": "transitTime",
+                            "startTimeUTC": "2023-07-24T18:58:11.448915100Z",
+                            "durationInMilliSecs": 45.5002
+                        },
+                        {
+                            "eventName": "decodeTime",
+                            "startTimeUTC": "2023-07-24T18:58:11.494415300Z",
+                            "durationInMilliSecs": 1.0054
+                        },
+                        {
+                            "eventName": "received",
+                            "startTimeUTC": "2023-07-24T18:58:11.495420700Z",
+                            "durationInMilliSecs": 0.0
+                        },
+                        {
+                            "eventName": "completed",
+                            "startTimeUTC": "2023-07-24T18:58:11.495420700Z",
+                            "durationInMilliSecs": 0.0
+                        }
+                    ],
+                    "rntbdRequestLengthInBytes": 493,
+                    "rntbdResponseLengthInBytes": 796,
+                    "requestPayloadLengthInBytes": 0,
+                    "responsePayloadLengthInBytes": 275,
+                    "channelStatistics": {
+                        "channelId": "8f569968",
+                        "channelTaskQueueSize": 1,
+                        "pendingRequestsCount": 0,
+                        "lastReadTime": "2023-07-24T18:58:08.976813900Z",
+                        "waitForConnectionInit": false
+                    },
+                    "serviceEndpointStatistics": {
+                        "availableChannels": 1,
+                        "acquiredChannels": 0,
+                        "executorTaskQueueSize": 0,
+                        "inflightRequests": 1,
+                        "lastSuccessfulRequestTime": "2023-07-24T18:58:08.977Z",
+                        "lastRequestTime": "2023-07-24T18:58:08.931Z",
+                        "createdTime": "2023-07-24T18:58:03.119032800Z",
+                        "isClosed": false,
+                        "cerMetrics": {}
+                    }
+                },
+                "requestResponseTimeUTC": "2023-07-24T18:58:11.495420700Z",
+                "requestStartTimeUTC": "2023-07-24T18:58:11.446912Z",
+                "requestResourceType": "Document",
+                "requestOperationType": "Read",
+                "requestSessionToken": null
+            }
+        ],
+        "supplementalResponseStatisticsList": [],
+        "addressResolutionStatistics": {},
+        "regionsContacted": [
+            "east us"
+        ],
+        "retryContext": {
+            "statusAndSubStatusCodes": null,
+            "retryLatency": 0,
+            "retryCount": 0
+        },
+        "metadataDiagnosticsContext": {
+            "metadataDiagnosticList": null
+        },
+        "serializationDiagnosticsContext": {
+            "serializationDiagnosticsList": null
+        },
+        "gatewayStatistics": null,
+        "samplingRateSnapshot": 1.0,
+        "systemInformation": {
+            "usedMemory": "138007 KB",
+            "availableMemory": "8209641 KB",
+            "systemCpuLoad": "(2023-07-24T18:57:46.885889900Z 17.4%), (2023-07-24T18:57:51.896834100Z 5.3%), (2023-07-24T18:57:56.887859100Z 7.0%), (2023-07-24T18:58:01.886108800Z 6.9%), (2023-07-24T18:58:06.891417800Z 5.7%)",
+            "availableProcessors": 8
+        },
+        "clientCfgs": {
+            "id": 1,
+            "machineId": "uuid:b98d2cc9-d48e-46c6-9553-911389a7b2ba",
+            "connectionMode": "DIRECT",
+            "numberOfClients": 3,
+            "clientEndpoints": {
+                "https://jeff-dedicated.sqlx.cosmos.azure.com": 3
+            },
+            "connCfg": {
+                "rntbd": "(cto:PT5S, nrto:PT5S, icto:PT0S, ieto:PT1H, mcpe:130, mrpc:30, cer:true)",
+                "gw": "(cps:1000, nrto:PT1M, icto:PT1M, p:false)",
+                "other": "(ed: true, cs: false, rv: true)"
+            },
+            "consistencyCfg": "(consistency: null, mm: true, prgns: [])",
+            "proactiveInit": null
+        }
+    }
+}

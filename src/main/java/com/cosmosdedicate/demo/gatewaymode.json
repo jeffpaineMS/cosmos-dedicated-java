@@ -1,0 +1,88 @@
+{
+    {
+        "userAgent": "azsdk-java-cosmos/4.46.0 Windows11/10.0 JRE/17.0.7 az-sd-cos/@project.version@az-sp-cos/5.3.0",
+        "activityId": "3b2b48ee-46d2-4fee-9c1f-9c7dbf98fe47",
+        "requestLatencyInMs": 48,
+        "requestStartTimeUTC": "2023-07-25T15:10:28.573525Z",
+        "requestEndTimeUTC": "2023-07-25T15:10:28.621884600Z",
+        "responseStatisticsList": [],
+        "supplementalResponseStatisticsList": [],
+        "addressResolutionStatistics": {},
+        "regionsContacted": [
+            "east us"
+        ],
+        "retryContext": {
+            "statusAndSubStatusCodes": null,
+            "retryCount": 0,
+            "retryLatency": 0
+        },
+        "metadataDiagnosticsContext": {
+            "metadataDiagnosticList": null
+        },
+        "serializationDiagnosticsContext": {
+            "serializationDiagnosticsList": null
+        },
+        "gatewayStatistics": {
+            "sessionToken": "0:-1#12",
+            "operationType": "Read",
+            "resourceType": "Document",
+            "statusCode": 200,
+            "subStatusCode": 0,
+            "requestCharge": 1.0,
+            "requestTimeline": [
+                {
+                    "eventName": "connectionAcquired",
+                    "startTimeUTC": "2023-07-25T15:10:28.574530Z",
+                    "durationInMilliSecs": 0.0
+                },
+                {
+                    "eventName": "connectionConfigured",
+                    "startTimeUTC": "2023-07-25T15:10:28.574530Z",
+                    "durationInMilliSecs": 0.0
+                },
+                {
+                    "eventName": "requestSent",
+                    "startTimeUTC": "2023-07-25T15:10:28.574530Z",
+                    "durationInMilliSecs": 1.0131
+                },
+                {
+                    "eventName": "transitTime",
+                    "startTimeUTC": "2023-07-25T15:10:28.575543100Z",
+                    "durationInMilliSecs": 44.9067
+                },
+                {
+                    "eventName": "received",
+                    "startTimeUTC": "2023-07-25T15:10:28.620449800Z",
+                    "durationInMilliSecs": 1.4348
+                }
+            ],
+            "partitionKeyRangeId": "0",
+            "exceptionMessage": null,
+            "exceptionResponseHeaders": null,
+            "responsePayloadSizeInBytes": 275
+        },
+        "samplingRateSnapshot": 1.0,
+        "systemInformation": {
+            "usedMemory": "63810 KB",
+            "availableMemory": "8283838 KB",
+            "systemCpuLoad": "(2023-07-25T15:10:03.118152500Z 20.5%), (2023-07-25T15:10:08.119932300Z 4.8%), (2023-07-25T15:10:13.123674400Z 6.7%), (2023-07-25T15:10:18.122253800Z 5.0%), (2023-07-25T15:10:23.122484500Z 6.3%), (2023-07-25T15:10:28.115632900Z 5.7%)",
+            "availableProcessors": 8
+        },
+        "clientCfgs": {
+            "id": 1,
+            "machineId": "uuid:d31561e0-30b3-4b23-8eaa-08497baad21a",
+            "connectionMode": "GATEWAY",
+            "numberOfClients": 3,
+            "clientEndpoints": {
+                "https://jeff-dedicated.sqlx.cosmos.azure.com": 3
+            },
+            "connCfg": {
+                "rntbd": null,
+                "gw": "(cps:1000, nrto:PT1M, icto:PT1M, p:false)",
+                "other": "(ed: true, cs: false, rv: true)"
+            },
+            "consistencyCfg": "(consistency: null, mm: true, prgns: [])",
+            "proactiveInit": null
+        }
+    }
+}
